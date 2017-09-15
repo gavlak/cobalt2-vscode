@@ -758,10 +758,53 @@
         "this",
         "comment",
         "storage.modifier.js",
-        "entity.other.attribute-name.js"
+        "entity.other.attribute-name.js",
+        "text.html.elixir entity.other.attribute-name"
       ],
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Elixir] - Other modules",
+      "scope": "source.elixir variable.other.constant",
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    },
+    {
+      "name": "[Elixir] - Atom symbol",
+      "scope": "punctuation.definition.constant.elixir",
+      "settings": {
+        "foreground": "#ff628c"
+      }
+    },
+    {
+      "name": "[Elixir] - Atom italic",
+      "scope": "source.elixir constant",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Elixir] - Template variables",
+      "scope": ["source.elixir.embedded variable", "source.elixir.embedded punctuation.definition.variable"],
+      "settings": {
+        "foreground": "#ff9d00"
+      }
+    },
+    {
+      "name": "[Elixir] - Template section punctuation",
+      "scope": "punctuation.section.embedded.elixir",
+      "settings": {
+        "foreground": "#3ad900"
+      }
+    },
+    {
+      "name": "[Elixir] - Keywords",
+      "scope": "source.elixir keyword.control",
+      "settings": {
+        "foreground": "#fb94ff"
       }
     }
   ]
